@@ -36,6 +36,7 @@
                 t >= 360 ? t -= 360 : t <= -360 && (t += 360),
                   e(this).css("transform", "rotate(" + t + "deg)"),
                   e(this).css("-webkit-transform", "rotate(" + t + "deg)")
+                  // e(this).css("height", 10);
               },
               complete: function () {
                 p.active = i.find("li.active"),
